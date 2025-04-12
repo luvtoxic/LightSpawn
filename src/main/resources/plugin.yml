@@ -1,0 +1,26 @@
+name: LightSpawn
+version: '1.0-SNAPSHOT'
+main: dev.luvtoxic.lightSpawn.LightSpawn
+api-version: '1.19'
+authors: [ luvtoxic ]
+commands:
+  setspawn:
+    description: Sets a spawn location at your position.
+    usage: /<command> [key] [type]
+  spawn:
+    description: Teleports to a spawn location.
+    usage: /<command> [key]
+  spawnreload:
+    description: Reloads spawn data and configuration.
+    usage: /<command>
+
+permissions:
+  lightspawn.setspawn:
+    description: Allows setting spawn locations.
+    default: op
+  lightspawn.spawn:
+    description: Allows teleporting to spawn locations.
+    default: true
+  lightspawn.reload:
+    description: Allows reloading spawn data and configuration.
+    default: op

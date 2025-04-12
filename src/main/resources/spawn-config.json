@@ -1,0 +1,7 @@
+{
+  "alwaysJoinSpawn": false,
+  "firstJoinSpawn": true,
+  "bedSpawnEnabled": true,
+  "firstJoinSpawnKey": "first_join",
+  "fallbackSpawnKey": "main"
+}
